@@ -1,0 +1,13 @@
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe__title {
+  font-family: Raleway;
+  font-size: 40px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #262626;
+}

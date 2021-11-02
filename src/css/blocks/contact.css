@@ -1,0 +1,24 @@
+.contact-box {
+  border: mediumturquoise;
+  display: block;
+  width: 100%;
+}
+
+.contact-box__title {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 90px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #262626;
+  text-align: center;
+}
+
+.box-inner__text {
+  font-family: Raleway;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #262626;
+  margin: 0 auto;
+}

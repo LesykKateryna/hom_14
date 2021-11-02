@@ -1,0 +1,29 @@
+.container {
+max-width: 1170px;
+width: 100%;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ body{
+     
+     background-color: grey;
+ }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    border: 1px solid rgb(6, 12, 12);
+    width: 100%;
+  }
+
+  button:hover{
+      cursor: grabbing;
+      opacity: 0.7;
+  }

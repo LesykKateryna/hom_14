@@ -1,0 +1,92 @@
+.blog-box {
+   background-color:#b07cf7;
+   display: block;
+   width: 100%; 
+}
+
+.blog-box__title{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 90px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 100px;
+}
+.box-text__inner{
+    text-align: center; 
+    padding-bottom: 50px;
+    max-width: 540px;
+    padding-top: 50px;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.box__blog-conteiner {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 80px;
+    }
+
+    .blog-conteiner__link{
+        display: block;
+        width: 340px;
+        height: 280px;
+    }
+
+    .blog-conteiner__title{
+        display: block;
+        margin: 10px 0 0 10px;
+        width: 60px;
+        width: 60px;
+        height: 60px;
+        opacity: 0.5;
+        background-color: #262626;
+        border-radius: 5px;
+        font-family: Raleway;
+        font-size: 21px;
+        line-height: 25px;
+        font-weight: 900;
+        color: #ffffff;
+        text-align: center;
+    }
+
+
+.blog-conteiner__caption {
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff; 
+    padding: 120px 20px 10px 20px;
+}
+.blog-conteiner__text {
+    font-size: 13px;
+     font-weight: 300;
+     color: $wait;
+     padding-left: 20px;
+}
+
+.blog-box__btn{
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 200px;
+    height: 55px;
+    margin-left: 42%;
+    margin-bottom: 100px;
+    background-color: #f72b3b;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.blog-conteiner__link:hover{
+    opacity: 0.7;
+    transform: 1s;
+}
+

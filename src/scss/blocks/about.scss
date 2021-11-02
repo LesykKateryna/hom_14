@@ -1,0 +1,43 @@
+.about-holder {
+    z-index: 1;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-color: #00c4c4;
+    width: 100%;
+
+}
+
+.holder__box {
+    width: 564px;
+    height: 559px;
+    
+}
+  
+ .about-holder{
+   margin-top: 0px;
+   flex: start;
+   align-items: center;
+ 
+ } 
+
+ .holder__conteiner{
+     padding: 0 40px 0 70px;
+}
+
+.holder__subject{
+    font-family: Raleway;
+    font-size: 90px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.holder__text{
+    padding-top: 25px;
+    font-family: Raleway;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #ffffff;
+}

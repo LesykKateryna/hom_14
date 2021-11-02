@@ -1,0 +1,140 @@
+.contact-box {
+    border: mediumturquoise;
+    display: block;
+    width: 100%; 
+}
+
+.contact-box__title {
+    padding-top: 150px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 90px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #262626;
+    text-align: center;
+}
+
+.box-inner__text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:  50px;
+    max-width: 350px;
+    font-family: Raleway;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #262626;
+    margin: 0 auto;
+}
+.contact-box__content {
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.form__title{
+    width: 500px;
+    height: 50px;
+    background-color: #00c4c4;
+    margin-bottom: 20px;
+}
+input {
+    width: 500px;
+    height: 50px;
+    opacity: 0.5;
+    background-color: #00c4c4;
+    margin-bottom: 20px; 
+}
+
+.form__title {
+    margin-bottom: 20px;
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px; 
+     border-left:5px solid midnightblue;
+}
+
+.form-section__message {
+    width: 500px;
+    height: 250px;
+}
+
+.content__form {
+    margin-left: 7%;
+}
+
+input::placeholder {
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 20px;
+   
+}
+
+.form-section__message {
+    padding-bottom: 30%;
+}
+
+.content__contacts{
+padding-left: 10%;
+}
+
+.cotacts__title{
+    font-family: Raleway;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #262626;
+      
+}
+.contakts__text{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.footer {
+    display: block;
+    
+    
+    background-color: #262626;
+    border: 2px solid gold;
+    width: 100%;
+    height: 180px;
+}
+.footer-conteiner{
+    padding: 70px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-conteiner__text{
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #b9b9b9;
+}
+.footer-conteiner__logo{
+    font-family: Pacifico;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #b9b9b9;
+}
+
+.footer-conteiner__p{
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #b9b9b9;
+}
+.p__span{
+    color: red;
+}
